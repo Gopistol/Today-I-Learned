@@ -13,6 +13,7 @@ public class BaseballTest {
             }
             // 확인 차 컴퓨터의 숫자 표시
             System.out.println("컴퓨터: "  + com.get(0) + com.get(1) + com.get(2));
+            // 볼, 스트라이크를 출력해주고 3스트라이크일 때는 true 값을 반환하는 check 메소드
             if(check(num, com)) {
                 System.out.println("3개의 숫자를 모두 맞히셨습니다! 게임 종료");
                 com.clear();
