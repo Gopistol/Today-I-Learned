@@ -1,6 +1,6 @@
 구현할 기능
 -
-## User
+
 <br>   
 
 - run(): 1~9까지의 세 자리 숫자 입력받고 잘못 입력하면 IllegalArgumentsException 발생, 게임을 새로 시작할 때 컬렉션 비워줌
